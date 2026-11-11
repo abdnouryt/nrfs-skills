@@ -1,0 +1,4 @@
+id,area,feature,priority,original,clone,note
+F01,core,EXAMPLE - replace me: user can sign up with email,must,yes,no,
+F02,core,EXAMPLE - replace me: user can reset password,should,yes,no,
+F03,ux,EXAMPLE - replace me: empty state for first-time users,should,yes,no,

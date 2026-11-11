@@ -1,0 +1,36 @@
+{
+  "$comment": "NRFS design tokens — filled by NRFS DESIGN. Components consume tokens only; no raw hex or pixel values in component code. Color roles follow the 60-30-10 psychology: 60% dominant atmosphere, 30% structural tonality, 10% high-tension accent.",
+  "material_soul": {
+    "concept": "e.g. Warm Editorial Linen",
+    "rationale": "why this concept fits this industry and audience"
+  },
+  "color": {
+    "dominant_60": { "hex": "#F6F4F0", "role": "page atmosphere", "psychology": "warm alabaster — calm, tactile, not sterile white" },
+    "structural_30": { "hex": "#11100E", "role": "text and structure", "psychology": "obsidian espresso — weight without dead black" },
+    "accent_10": { "hex": "#C75B39", "role": "primary actions, focus", "psychology": "high-tension warm accent — appetite and urgency" },
+    "border_light": "rgba(0,0,0,0.05)",
+    "border_dark": "rgba(255,255,255,0.10)",
+    "shadow": "tinted with the background hue — never dirty grey"
+  },
+  "typography": {
+    "display": { "family": "e.g. Instrument Serif (Google Fonts) or Clash Display (Fontshare)", "why": "emotional headlines" },
+    "ui": { "family": "e.g. Satoshi / General Sans (Fontshare)", "why": "UI clarity" },
+    "mono": { "family": "e.g. JetBrains Mono", "why": "numbers, prices, timestamps only" },
+    "rules": {
+      "headline": "tracking-[-0.03em] leading-[1.05]",
+      "category_tag": "uppercase tracking-[0.18em] bold",
+      "body": "max-w-[60ch] leading-[1.65]"
+    },
+    "arabic": "if the audience is Arabic: fonts with real Arabic coverage + dir=rtl + logical properties (Boosters #8)"
+  },
+  "spacing": { "base": 8, "scale": [4, 8, 12, 16, 24, 32, 48, 64] },
+  "radius": { "philosophy": "0 = brutalist sharp | 6 = architectural | 9999 = organic pill", "buttons": 6, "cards": 8, "inputs": 6 },
+  "motion": { "curve": "cubic-bezier(0.22, 1, 0.36, 1)", "duration_ms": 200, "press": "active:scale-[0.98]" },
+  "microcopy": {
+    "hero": "",
+    "primary_button": "never 'Submit' — earned words only",
+    "loading": "e.g. Curating your workspace…",
+    "empty": "e.g. Your canvas is untouched — create your first entry below.",
+    "error": "polite, human, actionable"
+  }
+}
